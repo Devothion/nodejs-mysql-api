@@ -5,7 +5,7 @@ import {
     DB_DATABASE,
     DB_USER,
     DB_PASSWORD
-} from './config'
+} from './config.js'
 
 export const pool = createPool({
     host: DB_HOST,
